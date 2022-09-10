@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    width: 100%;
+    float: left;
+    background: url(images/imgc/city4.jpg) no-repeat center bottom / cover;
+}
+
+.header-content {
+    width: 100%;
+    padding: 10px 0;
+    float: left;
+}
+
+.header-content .box {
+    width: 94%;
+    height: 60px;
+    background-color: #333;
+    margin-left: 3%;
+    padding-top: 10px;
+    float: left;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+
+.header-content .box h2 {
+    color: white;
+    margin-left: 80px;
+    float: left;
+    font-weight: normal;
+    font-size: 30px;
+    margin-right: 700px;
+}
+
+.header-content .box>div>a {
+    float: left;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 7px;
+}
+
+.title {
+    float: left;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.title h1 {
+    background-color: white;
+}
+
+.title-2 {
+    float: left;
+    clear: left;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+    margin-top: -1px;
+}
+
+.title-2 span {
+    background-color: white;
+    color: black;
+}
+
+
+
+.options {
+    float: left;
+    clear: left;
+    padding-left: 0;
+    margin-top: 100px;
+
+
+
+}
+
+.options>h3 {
+    background-color: crimson;
+    color: white;
+    float: left;
+    padding: 7px 15px;
+    margin: 30px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+
+.options>.second {
+    clear: left;
+}
+
+.header-content .container .options a {
+    color: white;
+    float: left;
+    clear: left;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: dodgerblue;
+    border: 1px solid white;
+    text-transform: uppercase;
+    margin-bottom: 150px;
+}
+
+.header-content i {
+    color: dodgerblue;
+    font-style: normal;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    top: 200px;
+    left: 0;
+
+}
+
+/* welcome */
+.welcome {
+    float: left;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    padding: 25px;
+    margin: 20px 0;
+    margin-top: 0;
+}
+
+.welcome h2 {
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+.welcome p {
+    font-size: 20px;
+
+}
+
+/* ways to choose us */
+
+.ways {
+    padding: 20px 0 10px;
+    text-transform: uppercase;
+    float: left;
+    margin-bottom: 25px;
+}
+
+.ways h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.way {
+    width: 30%;
+    float: left;
+    border: 1px solid rgb(235, 217, 217);
+    padding: 10px 10px;
+    margin-left: 1%;
+}
+
+.way>h3 {
+    text-align: center;
+    margin: 15px 0;
+    margin-bottom: 30px;
+}
+
+.way>P {
+    line-height: 20px;
+}
+
+
+
+.wedid {
+    text-align: center;
+}
+
+/* products */
+.products {
+    width: 30%;
+    margin-left: 1%;
+    float: left;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.pro-img1 {
+    width: 100%;
+    height: 200px;
+    background: url(images/imgc/city1.jpg) no-repeat center top / cover;
+    margin: 5px 0;
+}
+
+.pro-img2 {
+    width: 100%;
+    height: 200px;
+    background: url(images/imgc/city2.jpg) no-repeat center top / cover;
+    margin: 5px 0;
+
+}
+
+.pro-img3 {
+    width: 100%;
+    height: 200px;
+    background: url(images/imgc/city3.jpg) no-repeat center top / cover;
+    margin: 5px 0;
+
+}
+
+.products h3 {
+    color: rgb(75, 128, 207);
+    margin: 10px 0;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(187, 182, 182);
+    float: left;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-bottom: 200px;
+}
+
+.foot {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+    border: 0.5px solid white;
+    padding: 10px 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.foot h3 {
+    margin: 15px;
+}
